@@ -283,3 +283,7 @@ p {
 .thumbnail {
   border-bottom: 1px solid black;
 }
+
+.wrapper3 {
+  width: 100%;
+}

@@ -3,12 +3,16 @@ $(document).ready(function(){
 
 
 
-    $( ".submission" ).click(function() {
-      swal("Good job!", "You clicked the button!", "success")
-  
+    $( "#contact-form" ).submit(function(e) {
+      e.preventDefault();
+      swal("Good job!", "You submitted the request!", "success")
+      
+      
   });
 
 
+  
+}
 
 
 
